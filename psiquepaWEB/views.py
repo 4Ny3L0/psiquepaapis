@@ -9,8 +9,9 @@ from .UserSerializer import UserSerializaer
 # Create your views here.
 @api_view(['POST'])
 def login(request):
-    user = User.objects
-    return Response({})
+    user = request.data
+
+    return Response(user)
 
 
 @api_view(['POST'])
