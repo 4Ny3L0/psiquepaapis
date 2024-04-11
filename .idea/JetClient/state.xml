@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Lariza&quot;,&#10;  &quot;last_name&quot;: &quot;Fernandez&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;    &quot;document_id&quot; : &quot;8-958-1761&quot;,&#10;    &quot;user_name&quot; :&quot;my_lif2&quot;,&#10;    &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;    &quot;user_role&quot; : 1&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Lariza&quot;,&#10;  &quot;last_name&quot;: &quot;Fernandez&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;    &quot;document_id&quot; : &quot;8-959-761&quot;,&#10;    &quot;user_name&quot; :&quot;my_lif21a&quot;,&#10;    &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;    &quot;user_role&quot; : 1&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -28,7 +28,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;my_life&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;my_life&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234..&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
