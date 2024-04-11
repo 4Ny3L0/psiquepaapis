@@ -9,4 +9,4 @@ class User(models.Model):
     document_id = models.CharField(max_length=15)
     user_name = models.CharField(max_length=25)
     password = models.CharField(max_length=16)
-    user_role = models.IntegerField()
+    user_role = models.IntegerField(default=1)
