@@ -4,13 +4,15 @@ from psiquepaWEB.errors_messages import ErrorsMessages
 
 class RegisterCustomValidators:
 
+    def name_validations(name):
+        pass
+
     def password_validations(password):
+        custom_error_message = ErrorsMessages()
         if len(password) < 8:
-            ErrorsMessages.min_length['message'] += f' you send {len(password)}'
             raise serializers.ValidationError(ErrorsMessages.min_length)
         if len(password) > 16:
-            ErrorsMessages.max_length['message'] += f' you send {len(password)}'
-            raise serializers.ValidationError(ErrorsMessages.max_length)
+            raise serializers.ValidationError(custom_error_message.max_length)
 
     def user_name_validations(user_name):
         if len(user_name) < 8:
@@ -25,3 +27,5 @@ class RegisterCustomValidators:
             exist = values.get(field)
             if exist is None:
                 raise serializers.ValidationError(ErrorsMessages.field_required)
+            if len(str(exist)) == 0:
+                raise serializers.ValidationError(ErrorsMessages.field_is_blank)

@@ -11,6 +11,7 @@ from .UserRegistrationSerializer import UserSerializaer
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
 
+
 # Create your views here.
 @api_view(['POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
@@ -29,9 +30,9 @@ def register_user(request):
     if serializer.is_valid():
         document_id = request.data['document_id']
         user_name = request.data['user_name']
-        if UserSerializaer.user_exists(user_name, document_id):
+        if serializer.user_exists(user_name, document_id):
             return JsonResponse(ErrorsMessages.register_failed, status=status.HTTP_409_CONFLICT)
-        serializer.save()
+        serializer.create_user()
         return JsonResponse(RegistrationMessages.registration_success, status=status.HTTP_201_CREATED)
     else:
         RegisterCustomValidators.validate_required_entries(values=request_data, serializer_class=serializer)
