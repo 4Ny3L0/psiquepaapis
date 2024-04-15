@@ -1669,97 +1669,13 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713106648010" />
-          <option name="id" value="7309fb13-1bc7-4eac-946d-12a8ec77d8e6" />
+          <option name="dateTime" value="1713204757379" />
+          <option name="id" value="5030cc37-1bd0-4ab3-a188-41036ab3bd81" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Eddie&quot;,&#10;  &quot;last_name&quot;: &quot;Brock&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-sssaa&quot;,&#10;  &quot;user_name&quot; :&quot;venom_111a&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 14:57:28 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="7309fb13-1bc7-4eac-946d-12a8ec77d8e6" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="105" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713106663102" />
-          <option name="id" value="8b7bac0a-4b5a-4681-a598-73d84cb4895e" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Eddie&quot;,&#10;  &quot;last_name&quot;: &quot;Brock&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-sssaaw&quot;,&#10;  &quot;user_name&quot; :&quot;venom_111wa&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-02-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen016&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -1787,7 +1703,7 @@
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 14:57:43 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:12:37 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -1827,23 +1743,23 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="8b7bac0a-4b5a-4681-a598-73d84cb4895e" />
+              <option name="id" value="5030cc37-1bd0-4ab3-a188-41036ab3bd81" />
               <option name="message" value="Created" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
               <option name="size" value="61" />
-              <option name="time" value="522" />
+              <option name="time" value="482" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713106727209" />
-          <option name="id" value="097f82a4-8d20-4ee5-9de4-317d32f334ac" />
+          <option name="dateTime" value="1713207038120" />
+          <option name="id" value="95c7b3f8-bf41-4bf8-a5e3-95926784026a" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Eddie&quot;,&#10;  &quot;last_name&quot;: &quot;Brock&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-sssaaw&quot;,&#10;  &quot;user_name&quot; :&quot;venom_111wa&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-0002-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen017&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -1863,603 +1779,183 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 14:58:47 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="61" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="097f82a4-8d20-4ee5-9de4-317d32f334ac" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
-              <option name="size" value="61" />
-              <option name="time" value="497" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713106782779" />
-          <option name="id" value="9e537a57-fb72-4b69-b807-e60babe73191" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Eddie&quot;,&#10;  &quot;last_name&quot;: &quot;Brock&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-sssaaw&quot;,&#10;  &quot;user_name&quot; :&quot;venom_111wa&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 14:59:42 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="9e537a57-fb72-4b69-b807-e60babe73191" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="114" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713106814511" />
-          <option name="id" value="a5e6a606-7caa-4e99-9234-8874611a6132" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-123&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 15:00:14 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="61" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="a5e6a606-7caa-4e99-9234-8874611a6132" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
-              <option name="size" value="61" />
-              <option name="time" value="468" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713106858969" />
-          <option name="id" value="d88648a0-0752-44b7-9eea-1f7ac8edb00a" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-123&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 15:00:58 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="d88648a0-0752-44b7-9eea-1f7ac8edb00a" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="94" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713110450508" />
-          <option name="id" value="ff5a6314-288b-4b3f-8c52-9fde328c2d02" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-123&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:00:50 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="POST, OPTIONS" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ff5a6314-288b-4b3f-8c52-9fde328c2d02" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="120" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713110500002" />
-          <option name="id" value="29dd8ee8-d931-40a2-a578-69a04cdd18de" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-123&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:01:39 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="POST, OPTIONS" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="29dd8ee8-d931-40a2-a578-69a04cdd18de" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="111" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713110507127" />
-          <option name="id" value="760bd743-03d1-4762-b039-e1a1012c420b" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;rootmenv&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:01:47 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="POST, OPTIONS" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="61" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="760bd743-03d1-4762-b039-e1a1012c420b" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
-              <option name="size" value="61" />
-              <option name="time" value="499" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713110532810" />
-          <option name="id" value="5af8c0fd-98c9-473b-bc57-8015b0b22ef4" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;rootmenvasdasdasdasdasdasdasdasdasdas&quot;&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDAzIiwibWVzc2FnZSI6InBsZWFzZSB5b3VyIHBhc3N3b3JkIG11c3QgYmUgbWF4IDE2IGNoYXJhY3RlcnMifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0003&quot;,&#10;  &quot;message&quot; : &quot;please your password must be max 16 characters&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
               <option name="code" value="400" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:02:12 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:50:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="95c7b3f8-bf41-4bf8-a5e3-95926784026a" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207044948" />
+          <option name="id" value="91860d39-84bd-4d0d-ac76-e8220515a8d9" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-002-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen017&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:50:44 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="91860d39-84bd-4d0d-ac76-e8220515a8d9" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
+              <option name="size" value="61" />
+              <option name="time" value="460" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207454767" />
+          <option name="id" value="554b8c7a-a302-4a29-9a60-33e8f621adea" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-003-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen018&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:57:34 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -2483,7 +1979,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="79" />
+                    <option name="value" value="76" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Content-Type-Options" />
@@ -2499,23 +1995,359 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="5af8c0fd-98c9-473b-bc57-8015b0b22ef4" />
+              <option name="id" value="554b8c7a-a302-4a29-9a60-33e8f621adea" />
               <option name="message" value="Bad Request" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0003&quot;,&quot;message&quot;:&quot;please your password must be max 16 characters&quot;}" />
-              <option name="size" value="79" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207460723" />
+          <option name="id" value="ade4b0d3-a299-4dcb-8b38-75d9eb2a58b6" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-0003-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen018&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:57:40 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="POST, OPTIONS" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ade4b0d3-a299-4dcb-8b38-75d9eb2a58b6" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207464968" />
+          <option name="id" value="10afb2e4-6ec2-4805-ab54-825e0f5c1c5a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-03-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen018&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 18:57:44 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="POST, OPTIONS" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="10afb2e4-6ec2-4805-ab54-825e0f5c1c5a" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
+              <option name="size" value="61" />
+              <option name="time" value="437" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207708261" />
+          <option name="id" value="96bcfd14-8d9f-443f-962c-8c72fd0c1bb5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-04-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen019&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:01:48 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="96bcfd14-8d9f-443f-962c-8c72fd0c1bb5" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207711413" />
+          <option name="id" value="0884e2c5-0882-4b17-901b-6f525e57b33c" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-004-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen019&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:01:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0884e2c5-0882-4b17-901b-6f525e57b33c" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
               <option name="time" value="6" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713111239153" />
-          <option name="id" value="4e49c704-1a6c-409e-9c8f-eb265557d551" />
+          <option name="dateTime" value="1713207715405" />
+          <option name="id" value="982df685-d530-4753-ba85-3c398d9d4d4f" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;rootmenvasdasdasdasdasdasdasdasdasdas&quot;&#10;  &#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-0004-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen019&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -2535,15 +2367,15 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDAzIiwibWVzc2FnZSI6InBsZWFzZSB5b3VyIHBhc3N3b3JkIG11c3QgYmUgbWF4IDE2IGNoYXJhY3RlcnMifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0003&quot;,&#10;  &quot;message&quot; : &quot;please your password must be max 16 characters&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
               <option name="code" value="400" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:13:59 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:01:55 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -2559,7 +2391,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Allow" />
-                    <option name="value" value="POST, OPTIONS" />
+                    <option name="value" value="OPTIONS, POST" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Frame-Options" />
@@ -2567,7 +2399,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="79" />
+                    <option name="value" value="76" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Content-Type-Options" />
@@ -2583,23 +2415,23 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="4e49c704-1a6c-409e-9c8f-eb265557d551" />
+              <option name="id" value="982df685-d530-4753-ba85-3c398d9d4d4f" />
               <option name="message" value="Bad Request" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0003&quot;,&quot;message&quot;:&quot;please your password must be max 16 characters&quot;}" />
-              <option name="size" value="79" />
-              <option name="time" value="17" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="5" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713111354435" />
-          <option name="id" value="7df8bebf-380d-4412-9da2-1767d7c1a20a" />
+          <option name="dateTime" value="1713207724172" />
+          <option name="id" value="54810a7a-c1d6-4454-8276-7c5c814e5487" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;  &#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-4-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen019&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -2627,259 +2459,7 @@
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:15:54 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="POST, OPTIONS" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="61" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="7df8bebf-380d-4412-9da2-1767d7c1a20a" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
-              <option name="size" value="61" />
-              <option name="time" value="519" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713111399604" />
-          <option name="id" value="f38706c0-214c-4a07-b918-5f8bc0154025" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_black&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;  &quot;culona&quot;: true&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:16:39 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="f38706c0-214c-4a07-b918-5f8bc0154025" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="144" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713111405167" />
-          <option name="id" value="36475b6a-c114-44ae-ba49-7029b0425a48" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-1234&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;  &quot;culona&quot;: true&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:16:45 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="36475b6a-c114-44ae-ba49-7029b0425a48" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="130" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713111412264" />
-          <option name="id" value="5788e832-f5d2-4a81-8708-6652a8e034b0" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;  &quot;culona&quot;: true&#10;  &#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:16:52 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:02:04 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -2919,23 +2499,23 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="5788e832-f5d2-4a81-8708-6652a8e034b0" />
+              <option name="id" value="54810a7a-c1d6-4454-8276-7c5c814e5487" />
               <option name="message" value="Created" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
               <option name="size" value="61" />
-              <option name="time" value="487" />
+              <option name="time" value="433" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713112142427" />
-          <option name="id" value="82ee0485-9828-42e7-9237-71e6564f9734" />
+          <option name="dateTime" value="1713207784148" />
+          <option name="id" value="33500819-0c90-4398-a43c-a8c206e8af5c" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;  &quot;culona&quot;: true&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-05-2122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -2955,183 +2535,15 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:29:02 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="82ee0485-9828-42e7-9237-71e6564f9734" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="105" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713112144202" />
-          <option name="id" value="761ddd5c-4c46-40c0-bf3a-ca7af6ff799f" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;,&#10;  &quot;culona&quot;: true&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:29:04 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Server" />
-                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Accept, Cookie" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Allow" />
-                    <option name="value" value="OPTIONS, POST" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Frame-Options" />
-                    <option name="value" value="DENY" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Referrer-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Cross-Origin-Opener-Policy" />
-                    <option name="value" value="same-origin" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="761ddd5c-4c46-40c0-bf3a-ca7af6ff799f" />
-              <option name="message" value="Conflict" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="100" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713112171660" />
-          <option name="id" value="ece80e63-89a2-4ba2-a6c3-5fde00cf8768" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJKU09OIHBhcnNlIGVycm9yIC0gRXhwZWN0aW5nIHByb3BlcnR5IG5hbWUgZW5jbG9zZWQgaW4gZG91YmxlIHF1b3RlczogbGluZSA4IGNvbHVtbiAxIChjaGFyIDE0MikifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;JSON parse error - Expecting property name enclosed in double quotes: line 8 column 1 (char 142)&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
               <option name="code" value="400" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:29:31 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:04 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -3155,7 +2567,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="109" />
+                    <option name="value" value="76" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Content-Type-Options" />
@@ -3171,23 +2583,23 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="ece80e63-89a2-4ba2-a6c3-5fde00cf8768" />
+              <option name="id" value="33500819-0c90-4398-a43c-a8c206e8af5c" />
               <option name="message" value="Bad Request" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;JSON parse error - Expecting property name enclosed in double quotes: line 8 column 1 (char 142)&quot;}" />
-              <option name="size" value="109" />
-              <option name="time" value="9" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713112177711" />
-          <option name="id" value="2fb20f91-4d8f-4170-9e18-7aa7d5351274" />
+          <option name="dateTime" value="1713207793268" />
+          <option name="id" value="38391108-53d8-4a70-bd5f-bc82f95204b1" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-05-01&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -3207,15 +2619,15 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDkxIiwibWVzc2FnZSI6IlRoZSBmaWVsZCBpcyByZXF1aXJlZCJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0091&quot;,&#10;  &quot;message&quot; : &quot;The field is required&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
               <option name="code" value="400" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:29:37 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:13 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -3239,7 +2651,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="54" />
+                    <option name="value" value="76" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Content-Type-Options" />
@@ -3255,23 +2667,191 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="2fb20f91-4d8f-4170-9e18-7aa7d5351274" />
+              <option name="id" value="38391108-53d8-4a70-bd5f-bc82f95204b1" />
               <option name="message" value="Bad Request" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0091&quot;,&quot;message&quot;:&quot;The field is required&quot;}" />
-              <option name="size" value="54" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207796156" />
+          <option name="id" value="9d4b81ae-5788-4a44-81bc-1ef4368463f4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-05-012&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9d4b81ae-5788-4a44-81bc-1ef4368463f4" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207798724" />
+          <option name="id" value="16f040b0-167a-463f-b403-9ffd568320b2" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-05-0122&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="16f040b0-167a-463f-b403-9ffd568320b2" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
               <option name="time" value="3" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713112204852" />
-          <option name="id" value="24a4a19b-0aa0-428a-9963-87fd881be43f" />
+          <option name="dateTime" value="1713207802181" />
+          <option name="id" value="ddd01b97-7210-426c-9aa1-63765adacbbb" />
           <option name="request">
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Peter&quot;,&#10;  &quot;last_name&quot;: &quot;Parker&quot;,&#10;  &quot;document_id_type&quot; : 2,&#10;  &quot;document_id&quot; : &quot;8-129-12341&quot;,&#10;  &quot;user_name&quot; :&quot;spider_man_blacwk&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-05-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -3291,15 +2871,15 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMSIsICJtZXNzYWdlIjogIkVycm9yIGR1cmluZyB1c2VyIHJlZ2lzdHJhdGlvbiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0001&quot;,&#10;  &quot;message&quot; : &quot;Error during user registration&quot;&#10;}" />
-              <option name="code" value="409" />
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 14 Apr 2024 16:30:04 GMT" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:22 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Server" />
@@ -3323,7 +2903,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="66" />
+                    <option name="value" value="76" />
                   </headerState>
                   <headerState>
                     <option name="key" value="X-Content-Type-Options" />
@@ -3339,12 +2919,432 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="24a4a19b-0aa0-428a-9963-87fd881be43f" />
-              <option name="message" value="Conflict" />
+              <option name="id" value="ddd01b97-7210-426c-9aa1-63765adacbbb" />
+              <option name="message" value="Bad Request" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0001&quot;, &quot;message&quot;: &quot;Error during user registration&quot;}" />
-              <option name="size" value="66" />
-              <option name="time" value="117" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207811845" />
+          <option name="id" value="7696d564-22af-465d-956f-00e3e6cf0337" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;01-05-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:31 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7696d564-22af-465d-956f-00e3e6cf0337" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207830847" />
+          <option name="id" value="5926670c-f8da-4bb7-af2f-99a295bc1149" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;01-015-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5926670c-f8da-4bb7-af2f-99a295bc1149" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207834447" />
+          <option name="id" value="b4acef2f-4c9f-4cf0-98c9-15dd3b3fe33e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;01-01225-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b4acef2f-4c9f-4cf0-98c9-15dd3b3fe33e" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207837075" />
+          <option name="id" value="2bc72b92-87b1-4898-a60d-626452ac7a32" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;01-1225-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiJQUy0wMDA2IiwibWVzc2FnZSI6InBsZWFzZSBjaGVjayB0aGUgZm9ybWF0IG9mIHlvdXIgZG9jdW1lbnQgaWQifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0006&quot;,&#10;  &quot;message&quot; : &quot;please check the format of your document id&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:03:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="76" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2bc72b92-87b1-4898-a60d-626452ac7a32" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;:&quot;PS-0006&quot;,&quot;message&quot;:&quot;please check the format of your document id&quot;}" />
+              <option name="size" value="76" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713207840505" />
+          <option name="id" value="f3ce88cb-b908-4aa7-b750-8166dda59fd1" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Xabi&quot;,&#10;  &quot;last_name&quot;: &quot;Alonso&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;1-1225-1222&quot;,&#10;  &quot;user_name&quot; :&quot;TheNeverKusen020&quot;,&#10;  &quot;password&quot; : &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8000/register/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXMiOiAiUFMtMDAwMCIsICJtZXNzYWdlIjogIlVzZXIgY3JlYXRlZCBzdWNjZXNzZnVsbHkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;status&quot; : &quot;PS-0000&quot;,&#10;  &quot;message&quot; : &quot;User created successfully&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 15 Apr 2024 19:04:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Server" />
+                    <option name="value" value="WSGIServer/0.2 CPython/3.10.8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept, Cookie" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Allow" />
+                    <option name="value" value="OPTIONS, POST" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Referrer-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cross-Origin-Opener-Policy" />
+                    <option name="value" value="same-origin" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f3ce88cb-b908-4aa7-b750-8166dda59fd1" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;status&quot;: &quot;PS-0000&quot;, &quot;message&quot;: &quot;User created successfully&quot;}" />
+              <option name="size" value="61" />
+              <option name="time" value="426" />
             </responseState>
           </option>
         </requestHistoryState>

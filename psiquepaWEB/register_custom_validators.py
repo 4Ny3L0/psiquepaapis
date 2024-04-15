@@ -1,4 +1,5 @@
 from rest_framework import serializers
+import re
 from psiquepaWEB.errors_messages import ErrorsMessages
 
 
@@ -20,6 +21,12 @@ class RegisterCustomValidators:
 
         if len(user_name) > 25:
             raise serializers.ValidationError(ErrorsMessages.user_name_max)
+
+    def document_id_validations(document_id):
+        pattern = re.compile(r'^(1[0-3]|[1-9])-([1-9]\d{0,3})-([1-9]\d{0,3})$')
+        match = pattern.match(document_id)
+        if not match:
+            raise serializers.ValidationError(ErrorsMessages.document_id_format)
 
     def validate_required_entries(values: dict, serializer_class):
         fields = serializer_class.Meta.fields
