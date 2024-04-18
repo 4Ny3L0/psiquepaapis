@@ -7,4 +7,7 @@ class ErrorsMessages:
     user_name_min = {'status': 'PS-0004', 'message': 'please your user name must be min 8 characters'}
     user_name_max = {'status': 'PS-0005', 'message': 'please your user name must be max 25 characters'}
     document_id_format = {'status': 'PS-0006', 'message': 'please check the format of your document id'}
+    password_bad_format = {'status': 'PS-0007', 'message': 'please check the format of your password'}
+    mobile_number_format = {'status': 'PS-0008', 'message': 'please check the format of your mobile number'}
+    email_format = {'status': 'PS-0009', 'message': 'please check the format of your email'}
 

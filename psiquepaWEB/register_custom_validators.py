@@ -9,11 +9,15 @@ class RegisterCustomValidators:
         pass
 
     def password_validations(password):
-        custom_error_message = ErrorsMessages()
+        pattern = re.compile(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&._])[A-Za-z\d@$!%*?&._]{8,}$')
+        match = pattern.match(password)
         if len(password) < 8:
             raise serializers.ValidationError(ErrorsMessages.min_length)
         if len(password) > 16:
-            raise serializers.ValidationError(custom_error_message.max_length)
+            raise serializers.ValidationError(ErrorsMessages.max_length)
+        if not match:
+            print(match)
+            raise serializers.ValidationError(ErrorsMessages.password_bad_format)
 
     def user_name_validations(user_name):
         if len(user_name) < 8:
@@ -27,6 +31,19 @@ class RegisterCustomValidators:
         match = pattern.match(document_id)
         if not match:
             raise serializers.ValidationError(ErrorsMessages.document_id_format)
+
+    def mobile_number_validations(mobile_number):
+        pattern = re.compile(r'^\+5076\d{7}$')
+        match = pattern.match(mobile_number)
+        if not match:
+            raise serializers.ValidationError(ErrorsMessages.mobile_number_format)
+
+    def email_validations(email):
+        pattern = re.compile(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
+        match = pattern.match(email)
+        if not match:
+            raise serializers.ValidationError(ErrorsMessages.email_format)
+        pass
 
     def validate_required_entries(values: dict, serializer_class):
         fields = serializer_class.Meta.fields

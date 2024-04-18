@@ -9,10 +9,12 @@ class UserSerializaer(serializers.ModelSerializer):
     password = serializers.CharField(validators=[RegisterCustomValidators.password_validations])
     name = serializers.CharField(validators=[RegisterCustomValidators.name_validations])
     document_id = serializers.CharField(validators=[RegisterCustomValidators.document_id_validations])
+    mobile_number = serializers.CharField(validators=[RegisterCustomValidators.mobile_number_validations])
+    email = serializers.EmailField(validators=[RegisterCustomValidators.email_validations])
 
     class Meta:
         model = User
-        fields = ['name', 'last_name', 'document_id_type', 'document_id', 'user_name', 'password']
+        fields = ['name', 'last_name', 'document_id_type', 'document_id', 'mobile_number', 'email', 'user_name', 'password']
 
     def user_exists(self, user_to_validate, document_id):
         if User.objects.filter(user_name=user_to_validate).exists() or User.objects.filter(document_id=document_id).exists():

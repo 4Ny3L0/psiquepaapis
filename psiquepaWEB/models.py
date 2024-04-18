@@ -11,6 +11,8 @@ class User(models.Model):
     user_name = models.CharField(max_length=25)
     password = models.CharField(max_length=250)
     user_role = models.IntegerField(default=1)
+    email = models.EmailField(null=True, blank=True)
+    mobile_number = models.CharField(default='Not number provided')
     registration_date = models.DateTimeField(db_default=Now())
 
 
