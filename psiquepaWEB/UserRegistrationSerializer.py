@@ -1,6 +1,6 @@
 import bcrypt
 from rest_framework import serializers
-from .models import User
+from psiquepaWEB.models.models import User
 from .register_custom_validators import RegisterCustomValidators
 
 

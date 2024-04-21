@@ -28,7 +28,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;my_life&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234..&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;AgPs1Qu3.06.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>

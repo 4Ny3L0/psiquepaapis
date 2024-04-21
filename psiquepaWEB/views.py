@@ -1,26 +1,28 @@
 from django.http import JsonResponse
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.decorators import api_view, authentication_classes
-from rest_framework.generics import get_object_or_404
 from rest_framework.response import Response
 from rest_framework import status
 
 from .errors_messages import ErrorsMessages
-from .models import User
 from .UserRegistrationSerializer import UserSerializaer
+from .login_messges import LoginMessages
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
+from .serializers.UserLoginSerializer import UserLoginSerializer
 
 
 # Create your views here.
 @api_view(['POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 def login(request):
-    user = get_object_or_404(User, user_name=request.data['user_name'])
-    serilizer = UserSerializaer(data=user)
-    if serilizer.is_valid():
-        user = serilizer.validated_data
-    return Response({})
+    serializer = UserLoginSerializer(data=request.data)
+    if serializer.is_valid():
+        access_token = serializer.login_user()
+        return Response(LoginMessages.login_success, status=status.HTTP_200_OK)
+    else:
+        RegisterCustomValidators.validate_required_entries(values=request.data, serializer_class=serializer)
+        return Response(serializer.errors, status=status.HTTP_401_UNAUTHORIZED)
 
 
 @api_view(['POST'])

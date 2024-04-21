@@ -8,7 +8,7 @@ class RegisterCustomValidators:
     def name_validations(name):
         pass
 
-    def password_validations(password):
+    def password_validations(password: str):
         pattern = re.compile(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&._])[A-Za-z\d@$!%*?&._]{8,}$')
         match = pattern.match(password)
         if len(password) < 8:
@@ -19,7 +19,7 @@ class RegisterCustomValidators:
             print(match)
             raise serializers.ValidationError(ErrorsMessages.password_bad_format)
 
-    def user_name_validations(user_name):
+    def user_name_validations(user_name: str):
         if len(user_name) < 8:
             raise serializers.ValidationError(ErrorsMessages.user_name_min)
 
