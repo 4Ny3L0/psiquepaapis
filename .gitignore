@@ -1,1 +1,5 @@
 env
+.idea
+db.sqlite3
+.pg_service.conf
+.my_pgpass
