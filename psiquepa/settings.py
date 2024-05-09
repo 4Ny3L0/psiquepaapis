@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-r+414^*^vz=)+es2rmwnn^bsg&+q_ev1yz&ij52m0y8iac_1$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'psiquepaWEB'
+    'psiquepaWEB',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -47,6 +48,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'psiquepa.urls'
@@ -71,18 +74,39 @@ WSGI_APPLICATION = 'psiquepa.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
         'NAME': 'psiquepa',
-        'USER': 'postgres',
-        'PASSWORD': 'rootsuper',
-        'HOST': 'localhost',
+        'USER': 'rootadmin',
+        'PASSWORD': 'eXgxA2xzmpPindE3VBEAhxq5d5SI6gmE',
+        'HOST': 'rootadmin.dpg-coes2n779t8c73c6udbg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
-
+''' if os.getenv('ENV', None):
+    DATABASES = {
+        'default': {
+            "ENGINE": "django.db.backends.postgresql",
+            'NAME': 'psiquepa',
+            'USER': 'rootadmin',
+            'PASSWORD': 'eXgxA2xzmpPindE3VBEAhxq5d5SI6gmE',
+            'HOST': 'rootadmin.dpg-coes2n779t8c73c6udbg-a.oregon-postgres.render.com',
+            'PORT': '5432',
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            "ENGINE": "django.db.backends.postgresql",
+            'NAME': 'psiquepa',
+            'USER': 'postgres',
+            'PASSWORD': 'rootsuper',
+            'HOST': 'localhost',
+            'PORT': '5432',
+        }
+    }
+'''
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -122,9 +146,42 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CORS_ALLOW_ALL_ORIGINS: True
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:5500",
+    "http://192.168.100.7",
+    "http://localhost:5500",
+    "https://psiquepa.netlify.app"
+]
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ]
+}
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {"class": "logging.StreamHandler"},
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "general.log",
+            "formatter": "verbose",
+        },
+    },
+    "loggers": {
+        "": {
+            "handlers": ["console", "file"],
+            "level": os.environ.get("DJANGO_LOG_LEVEL", "INFO"),
+        }
+    },
+    "formatters": {
+        "verbose": {
+            "format": "{asctime} ({levelname})- {name}- {message}",
+            "style": "{",
+        }
+    },
 }

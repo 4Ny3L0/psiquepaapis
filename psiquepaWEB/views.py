@@ -4,6 +4,7 @@ from rest_framework.decorators import api_view, authentication_classes
 from rest_framework.response import Response
 from rest_framework import status
 
+import logging
 from .errors_messages import ErrorsMessages
 from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
@@ -13,6 +14,7 @@ from .serializers.UserLoginSerializer import UserLoginSerializer
 
 
 # Create your views here.
+logger = logging.getLogger(__name__)
 @api_view(['POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 def login(request):
@@ -32,6 +34,7 @@ def register_user(request):
     if serializer.is_valid():
         document_id = request.data['document_id']
         user_name = request.data['user_name']
+        logger.debug(user_name)
         if serializer.user_exists(user_name, document_id):
             return JsonResponse(ErrorsMessages.register_failed, status=status.HTTP_409_CONFLICT)
         serializer.create_user()
