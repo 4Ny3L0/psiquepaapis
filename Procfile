@@ -1,1 +1,1 @@
-web: gunicorn 'psiquepa.wsgi.application'
+web: gunicorn 'psiquepa.wsgi'
