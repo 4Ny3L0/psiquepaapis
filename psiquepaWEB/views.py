@@ -54,3 +54,11 @@ def blog(request):
 @api_view(['GET'])
 def blogs(request):
     return Response({})
+
+@api_view(['GET'])
+def user_profile(request):
+    return Response(dict({'status': 'PS-0000', 'body': dict({
+        'first_name': 'Amberlyn',
+        'last_name': 'Gutierrez',
+        'rol':1
+    })}))

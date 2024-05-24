@@ -25,6 +25,7 @@ urlpatterns = [
     re_path('login', views.login),
     re_path('register',views.register_user),
     re_path('blog',views.blog),
-    re_path('blogs', views.blogs)
+    re_path('blogs', views.blogs),
+    re_path('user/profile', views.user_profile)
 
 ]
