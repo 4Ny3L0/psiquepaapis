@@ -22,10 +22,10 @@ from psiquepaWEB import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('login', views.login),
-    re_path('register',views.register_user),
-    re_path('blog',views.blog),
-    re_path('blogs', views.blogs),
-    re_path('user/profile', views.user_profile)
+    path('login', views.login),
+    path('register',views.register_user),
+    path('blog',views.blog),
+    path('blogs', views.blogs),
+    path('user/profile', views.user_profile)
 
 ]

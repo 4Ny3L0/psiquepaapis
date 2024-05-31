@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Angel&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;8-907-142&quot;,&#10;  &quot;user_name&quot; :&quot;username&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Nay&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417993&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;8-907-145&quot;,&#10;  &quot;user_name&quot; :&quot;username3&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -23,7 +23,7 @@
               <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
               <option name="method" value="POST" />
               <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:8000/register/" />
+              <option name="url" value="http://localhost:8000/register" />
             </requestState>
             <requestState>
               <option name="body">
@@ -43,7 +43,44 @@
               <option name="id" value="75ebe817-d551-4d56-b253-f174255c2d4b" />
               <option name="method" value="POST" />
               <option name="name" value="Draft 1" />
-              <option name="url" value="http://localhost:8000/login/" />
+              <option name="url" value="http://localhost:8000/login" />
+            </requestState>
+            <requestState>
+              <option name="id" value="c35344ba-e940-4aae-99ef-f7cc7ae2d153" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft 2" />
+              <option name="url" value="http://localhost:8000/user/profile" />
+            </requestState>
+            <requestState>
+              <option name="id" value="023be6d2-c31d-4389-b17c-88068706fbff" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft 3" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Blog as 4&quot;,&#10;  &quot;author&quot;: &quot;Nay&quot;,&#10;  &quot;document_id&quot;: &quot;8-907-145&quot;,&#10;  &quot;blog_content&quot;: &quot;kaslñlasi kasd kas duiqiadass&quot;,&#10;  &quot;blog_image&quot;: &quot;kaskdakda&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="50aa4ebf-e4dc-49eb-8b2c-b302d69f46c5" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 4" />
+              <option name="url" value="http://localhost:8000/blog" />
+            </requestState>
+            <requestState>
+              <option name="id" value="b0625ed1-a485-4d19-b792-daeab1307be1" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft 5" />
+              <option name="url" value="http://localhost:8000/blogs" />
             </requestState>
           </list>
         </option>

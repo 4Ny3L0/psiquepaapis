@@ -10,11 +10,14 @@ from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
+from .serializers.BlogSerializer import BlogSerializer
 from .serializers.UserLoginSerializer import UserLoginSerializer
-
+from .serializers.UserProfileSerializer import UserProfileSerializer
 
 # Create your views here.
 logger = logging.getLogger(__name__)
+
+
 @api_view(['POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 def login(request):
@@ -48,17 +51,32 @@ def register_user(request):
 
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def blog(request):
-    return Response({})
+    if request.method == 'GET':
+        serializers = BlogSerializer()
+        blog = serializers.get_blog_by_id()
+        return Response({'status': 'GETTER'})
+    if request.method == 'POST':
+        serializer = BlogSerializer(data=request.data)
+        if serializer.is_valid():
+            result = serializer.create_blog()
+            return Response(result)
+        if serializer.errors:
+            return Response(serializer.errors)
+    if request.method == 'PUT':
+        return Response({'status': 'MODIFIED'})
+    if request.method == 'DELETE':
+        return Response({'status': 'DELETED'})
+    return Response()
 
 
 @api_view(['GET'])
 def blogs(request):
-    return Response({})
+    serializers = BlogSerializer().get_all_blogs()
+    return Response(serializers)
+
 
 @api_view(['GET'])
 def user_profile(request):
-    return Response(dict({'status': 'PS-0000', 'body': dict({
-        'first_name': 'Amberlyn',
-        'last_name': 'Gutierrez',
-        'rol':1
-    })}))
+    serializer = UserProfileSerializer()
+    response = serializer.get_user_profile()
+    return Response(response)
