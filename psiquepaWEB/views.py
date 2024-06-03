@@ -63,6 +63,7 @@ def blog(request):
     if request.method == 'DELETE':
         serializer = BlogSerializer()
         return Response({'status': 'DELETED'})
+
     return Response()
 
 

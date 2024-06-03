@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Nay&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417993&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;8-907-145&quot;,&#10;  &quot;user_name&quot; :&quot;username3&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Angel&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;8-907-139&quot;,&#10;  &quot;user_name&quot; :&quot;rootadmin&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -28,7 +28,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;AgPs1Qu3.06.P&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -88,5 +88,6 @@
       </draftsState>
     </option>
     <option name="id" value="f61eb893-3100-4564-afb1-c503aeefb90c" />
+    <option name="version" value="2" />
   </component>
 </project>
