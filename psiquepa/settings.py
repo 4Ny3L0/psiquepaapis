@@ -160,7 +160,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ]
 }
-
+APPEND_SLASH= False
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,

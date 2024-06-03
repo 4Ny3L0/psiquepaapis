@@ -10,4 +10,5 @@ class ErrorsMessages:
     password_bad_format = {'status': 'PS-0007', 'message': 'please check the format of your password'}
     mobile_number_format = {'status': 'PS-0008', 'message': 'please check the format of your mobile number'}
     email_format = {'status': 'PS-0009', 'message': 'please check the format of your email'}
+    method_not_allowed = dict({'status': 'PS-9010', 'message': 'Method not allowed'})
 

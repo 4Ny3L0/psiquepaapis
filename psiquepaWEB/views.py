@@ -10,11 +10,14 @@ from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
+from .serializers.BlogSerializer import BlogSerializer
 from .serializers.UserLoginSerializer import UserLoginSerializer
-
+from .serializers.UserProfileSerializer import UserProfileSerializer
 
 # Create your views here.
 logger = logging.getLogger(__name__)
+
+
 @api_view(['POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 def login(request):
@@ -48,9 +51,41 @@ def register_user(request):
 
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def blog(request):
-    return Response({})
+    if request.method == 'POST':
+        serializer = BlogSerializer(data=request.data)
+        if serializer.is_valid():
+            result = serializer.create_blog()
+            return Response(result)
+        if serializer.errors:
+            return Response(serializer.errors)
+    if request.method == 'PUT':
+        return Response({'status': 'MODIFIED'})
+    if request.method == 'DELETE':
+        serializer = BlogSerializer()
+        return Response({'status': 'DELETED'})
+    return Response()
+
+
+@api_view(['GET', 'DELETE'])
+def blog_detailed(request, blog_id):
+    if request.method == 'GET':
+        serializers = BlogSerializer()
+        blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
+        return Response(blog_detail[0], status=blog_detail[1])
+    if request.method == 'DELETE':
+        serializers = BlogSerializer()
+        process_result = serializers.delete_blog_by_id(blog_id=blog_id)
+        return Response(process_result[0], process_result[1])
 
 
 @api_view(['GET'])
 def blogs(request):
-    return Response({})
+    serializers = BlogSerializer().get_all_blogs()
+    return Response(serializers[0], status=serializers[1])
+
+
+@api_view(['GET'])
+def user_profile(request):
+    serializer = UserProfileSerializer()
+    response = serializer.get_user_profile()
+    return Response(response[0], status=response[1])
