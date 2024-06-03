@@ -51,10 +51,6 @@ def register_user(request):
 
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def blog(request):
-    if request.method == 'GET':
-        serializers = BlogSerializer()
-        blog = serializers.get_blog_by_id()
-        return Response({'status': 'GETTER'})
     if request.method == 'POST':
         serializer = BlogSerializer(data=request.data)
         if serializer.is_valid():
@@ -65,18 +61,31 @@ def blog(request):
     if request.method == 'PUT':
         return Response({'status': 'MODIFIED'})
     if request.method == 'DELETE':
+        serializer = BlogSerializer()
         return Response({'status': 'DELETED'})
     return Response()
+
+
+@api_view(['GET', 'DELETE'])
+def blog_detailed(request, blog_id):
+    if request.method == 'GET':
+        serializers = BlogSerializer()
+        blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
+        return Response(blog_detail[0], status=blog_detail[1])
+    if request.method == 'DELETE':
+        serializers = BlogSerializer()
+        process_result = serializers.delete_blog_by_id(blog_id=blog_id)
+        return Response(process_result[0], process_result[1])
 
 
 @api_view(['GET'])
 def blogs(request):
     serializers = BlogSerializer().get_all_blogs()
-    return Response(serializers)
+    return Response(serializers[0], status=serializers[1])
 
 
 @api_view(['GET'])
 def user_profile(request):
     serializer = UserProfileSerializer()
     response = serializer.get_user_profile()
-    return Response(response)
+    return Response(response[0], status=response[1])
