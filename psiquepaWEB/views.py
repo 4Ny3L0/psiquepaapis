@@ -1,10 +1,12 @@
 from django.http import JsonResponse
-from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.decorators import api_view, authentication_classes
 from rest_framework.response import Response
 from rest_framework import status
 
 import logging
+
+
+from .auth.AuthCustom import AuthCustom
 from .errors_messages import ErrorsMessages
 from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
@@ -19,12 +21,13 @@ logger = logging.getLogger(__name__)
 
 
 @api_view(['POST'])
-@authentication_classes([SessionAuthentication, BasicAuthentication])
 def login(request):
     serializer = UserLoginSerializer(data=request.data)
     if serializer.is_valid():
         access_token = serializer.login_user()
-        return Response(LoginMessages.login_success, status=status.HTTP_200_OK)
+        new_response = LoginMessages.login_success.copy()
+        new_response['token'] = access_token
+        return Response(new_response, status=status.HTTP_200_OK)
     else:
         RegisterCustomValidators.validate_required_entries(values=request.data, serializer_class=serializer)
         return Response(serializer.errors, status=status.HTTP_401_UNAUTHORIZED)
@@ -50,7 +53,10 @@ def register_user(request):
 
 
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
+@authentication_classes([AuthCustom])
 def blog(request):
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'POST':
         serializer = BlogSerializer(data=request.data)
         if serializer.is_valid():
@@ -67,7 +73,10 @@ def blog(request):
 
 
 @api_view(['GET', 'DELETE'])
+@authentication_classes([AuthCustom])
 def blog_detailed(request, blog_id):
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'GET':
         serializers = BlogSerializer()
         blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
@@ -79,13 +88,19 @@ def blog_detailed(request, blog_id):
 
 
 @api_view(['GET'])
+@authentication_classes([AuthCustom])
 def blogs(request):
+    if not request.user:
+        return Response(request.auth)
     serializers = BlogSerializer().get_all_blogs()
     return Response(serializers[0], status=serializers[1])
 
 
 @api_view(['GET'])
+@authentication_classes([AuthCustom])
 def user_profile(request):
+    if not request.user:
+        return Response(request.auth)
     serializer = UserProfileSerializer()
-    response = serializer.get_user_profile()
+    response = serializer.get_user_profile(request.auth['user_name'])
     return Response(response[0], status=response[1])
