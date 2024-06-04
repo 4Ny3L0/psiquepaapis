@@ -26,7 +26,6 @@ urlpatterns = [
     path('register', views.register_user),
     path('blog', views.blog),
     path('blog/<int:blog_id>', views.blog_detailed),
-    #path('blog/<int:blog_id>', views.delete_blog),
     path('blogs', views.blogs),
     path('user/profile', views.user_profile)
 

@@ -1,7 +1,7 @@
 import bcrypt
-from psiquepaWEB.security_validation import SecurityValidations
+from psiquepaWEB.auth.security_validation import SecurityValidations
 from rest_framework import serializers, status
-from rest_framework.exceptions import AuthenticationFailed, ValidationError
+from rest_framework.exceptions import ValidationError
 from psiquepaWEB.login_messges import LoginMessages
 from psiquepaWEB.models.models import User
 
