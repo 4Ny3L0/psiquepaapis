@@ -8,8 +8,7 @@ class UserProfileSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
 
-    def get_user_profile(self):
-        logged_user = 'username12'
+    def get_user_profile(self, logged_user):
         if User.objects.filter(user_name=logged_user):
             user_info = User.objects.get(user_name=logged_user)
             response = dict({'status': 'PS-0000', 'body': dict({
@@ -18,6 +17,6 @@ class UserProfileSerializer(serializers.HyperlinkedModelSerializer):
                 'complete_name': f'{user_info.name} {user_info.last_name}',
                 'rol': user_info.user_role,
             })})
-            return response
+            return [response, status.HTTP_200_OK]
         response = dict({'status': 'PS-0020', 'message': 'No results found'})
         return [response, status.HTTP_404_NOT_FOUND]

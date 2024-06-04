@@ -1,12 +1,10 @@
 from django.http import JsonResponse
-from rest_framework.decorators import api_view, authentication_classes, permission_classes
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import api_view, authentication_classes
 from rest_framework.response import Response
 from rest_framework import status
 
 import logging
 
-from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from .auth.AuthCustom import AuthCustom
 from .errors_messages import ErrorsMessages
@@ -55,7 +53,10 @@ def register_user(request):
 
 
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
+@authentication_classes([AuthCustom])
 def blog(request):
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'POST':
         serializer = BlogSerializer(data=request.data)
         if serializer.is_valid():
@@ -72,7 +73,10 @@ def blog(request):
 
 
 @api_view(['GET', 'DELETE'])
+@authentication_classes([AuthCustom])
 def blog_detailed(request, blog_id):
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'GET':
         serializers = BlogSerializer()
         blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
@@ -84,15 +88,19 @@ def blog_detailed(request, blog_id):
 
 
 @api_view(['GET'])
+@authentication_classes([AuthCustom])
 def blogs(request):
+    if not request.user:
+        return Response(request.auth)
     serializers = BlogSerializer().get_all_blogs()
     return Response(serializers[0], status=serializers[1])
 
 
 @api_view(['GET'])
 @authentication_classes([AuthCustom])
-@permission_classes([IsAuthenticated])
 def user_profile(request):
+    if not request.user:
+        return Response(request.auth)
     serializer = UserProfileSerializer()
-    response = serializer.get_user_profile()
+    response = serializer.get_user_profile(request.auth['user_name'])
     return Response(response[0], status=response[1])
