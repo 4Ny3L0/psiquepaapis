@@ -11,7 +11,7 @@ from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
-# from .serializers.BlogSerializer import BlogSerializer
+from .serializers.BlogSerializer import BlogSerializer
 from .serializers.UserLoginSerializer import UserLoginSerializer
 from .serializers.UserProfileSerializer import UserProfileSerializer
 
@@ -51,15 +51,16 @@ def register_user(request):
         return Response(error.get(error_type[0]), status=status.HTTP_400_BAD_REQUEST)
 
 
-'''@api_view(['GET', 'POST', 'PUT', 'DELETE'])
+@api_view(['GET', 'POST', 'PUT', 'DELETE'])
 @authentication_classes([AuthCustom])
 def blog(request):
+    print(request)
     if not request.user:
         return Response(request.auth)
     if request.method == 'POST':
         serializer = BlogSerializer(data=request.data)
         if serializer.is_valid():
-            result = serializer.create_blog()
+            result = serializer.create_blog(request.auth['user_name'])
             return Response(result)
         if serializer.errors:
             return Response(serializer.errors)
@@ -71,6 +72,7 @@ def blog(request):
     return Response()
 
 
+'''
 @api_view(['GET', 'DELETE'])
 @authentication_classes([AuthCustom])
 def blog_detailed(request, blog_id):
@@ -102,6 +104,16 @@ def blog_by_user(request, blog_owner):
     return Response(response[0], response[1])
 
 '''
+
+
+@api_view(['GET'])
+@authentication_classes([AuthCustom])
+def blog_by_user(request, blog_owner):
+    if not request.user:
+        return Response(request)
+    serializer = BlogSerializer()
+    response = serializer.get_blogs_by_user(blog_owner)
+    return Response(response[0], response[1])
 
 
 @api_view(['GET'])

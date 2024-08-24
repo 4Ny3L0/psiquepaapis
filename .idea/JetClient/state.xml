@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Angel&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id&quot; : &quot;8-907-142&quot;,&#10;  &quot;user_name&quot; :&quot;rootadmin1&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Other&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id&quot; : &quot;8-907-143&quot;,&#10;  &quot;user_name&quot; :&quot;rootadmin2&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -22,13 +22,13 @@
               </option>
               <option name="id" value="dd885bd0-846c-4f1a-99cf-0a898b4efe3e" />
               <option name="method" value="POST" />
-              <option name="name" value="Draft" />
+              <option name="name" value="register" />
               <option name="url" value="http://localhost:8000/register" />
             </requestState>
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}&#10;" />
+                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin2&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}&#10;" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -42,7 +42,7 @@
               </option>
               <option name="id" value="75ebe817-d551-4d56-b253-f174255c2d4b" />
               <option name="method" value="POST" />
-              <option name="name" value="Draft 1" />
+              <option name="name" value="login" />
               <option name="url" value="http://localhost:8000/login" />
             </requestState>
             <requestState>
@@ -67,7 +67,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Blog 1012askdaskdkaskdkasdkakdk2&quot;,&#10;  &quot;author&quot;: &quot;asassalasd&quot;,&#10;  &quot;document_id&quot;: &quot;8-907-145&quot;,&#10;  &quot;blog_content&quot;: &quot;kaslñlasi kasd kas duiqiadass&quot;,&#10;  &quot;blog_image&quot;: &quot;kaskdakda&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;title&quot;: &quot;GTA VI&quot;,&#10;  &quot;blog_content&quot;: &quot;Grand Theft Auto VI (GTA 6): Todo lo que sabemos hasta ahora\nGrand Theft Auto VI, también conocido como GTA 6, es uno de los videojuegos más esperados de la próxima generación. Aunque Rockstar Games ha mantenido la mayoría de los detalles en secreto, hay algunas pistas y rumores que nos dan una idea de lo que podríamos esperar. Aquí está todo lo que sabemos hasta ahora:\n\n1. Ubicación y entorno:\nLos rumores sugieren que GTA 6 podría estar ambientado en Vice City (una versión ficticia de Miami) y en una versión ampliada de Liberty City (inspirada en Nueva York). Esto sería un regreso a dos de las ciudades icónicas de la serie.\nSe espera que el mundo del juego sea más grande y detallado que nunca, aprovechando al máximo las capacidades de las consolas de próxima generación.\n2. Personajes y narrativa:\nAunque no se ha confirmado oficialmente, se especula que el juego podría tener múltiples protagonistas, al igual que GTA V.\nLa historia podría explorar temas como el crimen organizado, la corrupción y la lucha por el poder en un mundo abierto.\n3. Gráficos y jugabilidad:\nSe espera que GTA 6 tenga gráficos impresionantes, con mejoras significativas en la iluminación, las texturas y los efectos visuales.\nLa jugabilidad podría incluir nuevas mecánicas, como la posibilidad de comprar propiedades y administrar negocios.\n4. Fecha de lanzamiento:\nRockstar Games aún no ha anunciado una fecha de lanzamiento oficial. Sin embargo, los rumores sugieren que podríamos ver el juego en algún momento después de 2023.\n5. Modo en línea:\nGTA Online ha sido un gran éxito para Rockstar, y se espera que GTA 6 también tenga un modo en línea expansivo y lleno de actividades.\nEn resumen, Grand Theft Auto VI promete ser un juego épico que llevará la franquicia a nuevas alturas. Aunque la espera puede ser larga, los fanáticos están ansiosos por sumergirse en este mundo virtual lleno de acción, crimen y libertad.\n\nEspero que esta información te haya resultado interesante. Si tienes más preguntas o necesitas más detalles, no dudes en preguntar. ¡Disfruta de la espera por GTA 6! &quot;,&#10;  &quot;blog_image&quot;: &quot;kaskdakda&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -79,13 +79,13 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Authorization" />
-                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VybmFtZTEifQ.5C_cjdZw225XILLg5lSojzpuH5Y0HLuJB0zDBCJ6G-U" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJyb290YWRtaW4yIn0.3UKnZ8uHkKriHoKLbm0GNWcquOb9wqK7CVXEg7I37VM" />
                   </headerState>
                 </list>
               </option>
               <option name="id" value="50aa4ebf-e4dc-49eb-8b2c-b302d69f46c5" />
               <option name="method" value="POST" />
-              <option name="name" value="Draft 4" />
+              <option name="name" value="create blog" />
               <option name="url" value="http://localhost:8000/blog" />
             </requestState>
             <requestState>
@@ -93,20 +93,35 @@
                 <list>
                   <headerState>
                     <option name="key" value="Authorization" />
-                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VybmFtZTEifQ.5C_cjdZw225XILLg5lSojzpuH5Y0HLuJB0zDBCJ6G-U" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJyb290YWRtaW4yIn0.3UKnZ8uHkKriHoKLbm0GNWcquOb9wqK7CVXEg7I37VM" />
                   </headerState>
                 </list>
               </option>
               <option name="id" value="b0625ed1-a485-4d19-b792-daeab1307be1" />
               <option name="method" value="GET" />
               <option name="name" value="Draft 5" />
-              <option name="url" value="http://localhost:8000/blog/user/username3" />
+              <option name="url" value="http://localhost:8000/blog/user/6f3dc41b-95ee-4f3c-a208-d5b037985811" />
             </requestState>
             <requestState>
               <option name="id" value="95069f17-f69b-4b06-aa31-b9c9b9e5a9f2" />
               <option name="method" value="DELETE" />
               <option name="name" value="Draft 3" />
               <option name="url" value="http://localhost:8000/blog/11" />
+            </requestState>
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJyb290YWRtaW4ifQ.UTyOEEfzCkVfII0RHud8cIodP6w0FeuAMGPDIdq_Y4c" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="917ae0e5-f38c-4f5d-ba1d-7bef1a4cf6ac" />
+              <option name="method" value="GET" />
+              <option name="name" value="get_profile" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8000/user/profile" />
             </requestState>
           </list>
         </option>

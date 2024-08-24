@@ -1,11 +1,11 @@
-import datetime
+
 
 import jwt
 from psiquepa import settings
 from psiquepaWEB.login_messges import LoginMessages
 
 
-class SecurityValidations():
+class SecurityValidations:
     secret_key = settings.SECRET_KEY
     security_alg = 'HS256'
 
