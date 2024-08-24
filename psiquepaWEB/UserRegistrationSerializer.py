@@ -14,7 +14,7 @@ class UserSerializaer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['name', 'last_name', 'document_id_type', 'document_id', 'mobile_number', 'email', 'user_name', 'password']
+        fields = ['name', 'last_name', 'document_id', 'mobile_number', 'email', 'user_name', 'password']
 
     def user_exists(self, user_to_validate, document_id):
         if User.objects.filter(user_name=user_to_validate).exists() or User.objects.filter(document_id=document_id).exists():

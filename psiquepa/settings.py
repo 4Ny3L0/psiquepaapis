@@ -80,14 +80,24 @@ WSGI_APPLICATION = 'psiquepa.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
+        'NAME': 'psiquepaWEB',
+        'USER': 'postgres',
+        'PASSWORD': 'rootsuper',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+''' 
+'default': {
+        "ENGINE": "django.db.backends.postgresql",
         'NAME': 'psiquepa',
         'USER': 'rootadmin',
         'PASSWORD': 'eXgxA2xzmpPindE3VBEAhxq5d5SI6gmE',
         'HOST': 'rootadmin.dpg-coes2n779t8c73c6udbg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
-}
-''' if os.getenv('ENV', None):
+
+if os.getenv('ENV', None):
     DATABASES = {
         'default': {
             "ENGINE": "django.db.backends.postgresql",

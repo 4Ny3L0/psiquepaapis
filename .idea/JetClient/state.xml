@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Angel&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id_type&quot; : 1,&#10;  &quot;document_id&quot; : &quot;8-907-139&quot;,&#10;  &quot;user_name&quot; :&quot;rootadmin&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;Angel&quot;,&#10;  &quot;last_name&quot;: &quot;Gutierrez&quot;,&#10;  &quot;mobile_number&quot;: &quot;+50761417992&quot;,&#10;  &quot;email&quot;: &quot;angel50710@hotmail.com&quot;,&#10;  &quot;document_id&quot; : &quot;8-907-142&quot;,&#10;  &quot;user_name&quot; :&quot;rootadmin1&quot;,&#10;  &quot;password&quot; : &quot;Abcd1234.&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -28,7 +28,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;user_name&quot;: &quot;rootadmin&quot;,&#10;  &quot;password&quot;: &quot;Abcd1234.&quot;&#10;}&#10;" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -46,10 +46,23 @@
               <option name="url" value="http://localhost:8000/login" />
             </requestState>
             <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJyb290YWRtaW4ifQ.UTyOEEfzCkVfII0RHud8cIodP6w0FeuAMGPDIdq_Y4c" />
+                  </headerState>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VybmFtZTEifQ.5C_cjdZw225XILLg5lSojzpuH5Y0HLuJB0zDBCJ6G-U" />
+                  </headerState>
+                </list>
+              </option>
               <option name="id" value="c35344ba-e940-4aae-99ef-f7cc7ae2d153" />
               <option name="method" value="GET" />
               <option name="name" value="Draft 2" />
-              <option name="url" value="http://localhost:8000/user/profile" />
+              <option name="url" value="http://localhost:8000/blogs" />
             </requestState>
             <requestState>
               <option name="body">
@@ -64,6 +77,10 @@
                     <option name="key" value="Content-Type" />
                     <option name="value" value="application/json" />
                   </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VybmFtZTEifQ.5C_cjdZw225XILLg5lSojzpuH5Y0HLuJB0zDBCJ6G-U" />
+                  </headerState>
                 </list>
               </option>
               <option name="id" value="50aa4ebf-e4dc-49eb-8b2c-b302d69f46c5" />
@@ -72,10 +89,18 @@
               <option name="url" value="http://localhost:8000/blog" />
             </requestState>
             <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VybmFtZTEifQ.5C_cjdZw225XILLg5lSojzpuH5Y0HLuJB0zDBCJ6G-U" />
+                  </headerState>
+                </list>
+              </option>
               <option name="id" value="b0625ed1-a485-4d19-b792-daeab1307be1" />
               <option name="method" value="GET" />
               <option name="name" value="Draft 5" />
-              <option name="url" value="http://localhost:8000/blogs" />
+              <option name="url" value="http://localhost:8000/blog/user/username3" />
             </requestState>
             <requestState>
               <option name="id" value="95069f17-f69b-4b06-aa31-b9c9b9e5a9f2" />
