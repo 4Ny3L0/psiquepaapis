@@ -51,10 +51,9 @@ def register_user(request):
         return Response(error.get(error_type[0]), status=status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['GET', 'POST', 'PUT', 'DELETE'])
+@api_view(['GET', 'POST', 'PUT'])
 @authentication_classes([AuthCustom])
 def blog(request):
-    print(request)
     if not request.user:
         return Response(request.auth)
     if request.method == 'POST':
@@ -65,23 +64,24 @@ def blog(request):
         if serializer.errors:
             return Response(serializer.errors)
     if request.method == 'PUT':
-        return Response({'status': 'MODIFIED'})
-    if request.method == 'DELETE':
-        serializer = BlogSerializer()
-        return Response({'status': 'DELETED'})
-    return Response()
+        blog_id = request.data['blog_id']
+        serializer = BlogSerializer(data=request.data)
+        if serializer.is_valid():
+            result = serializer.modify_blog(blog_id=blog_id, user_name=request.auth['user_name'])
+            return Response({'status': 'MODIFIED', 'body': result})
+        if serializer.errors:
+            return Response(serializer.errors)
 
 
-'''
 @api_view(['GET', 'DELETE'])
 @authentication_classes([AuthCustom])
 def blog_detailed(request, blog_id):
-    if not request.user:
-        return Response(request.auth)
     if request.method == 'GET':
         serializers = BlogSerializer()
         blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
         return Response(blog_detail[0], status=blog_detail[1])
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'DELETE':
         serializers = BlogSerializer()
         process_result = serializers.delete_blog_by_id(blog_id=blog_id)
@@ -92,18 +92,6 @@ def blog_detailed(request, blog_id):
 def blogs(request):
     serializers = BlogSerializer().get_all_blogs()
     return Response(serializers[0], status=serializers[1])
-
-
-@api_view(['GET'])
-@authentication_classes([AuthCustom])
-def blog_by_user(request, blog_owner):
-    if not request.user:
-        return Response(request)
-    serializer = BlogSerializer()
-    response = serializer.get_blogs_by_user(user_name=blog_owner)
-    return Response(response[0], response[1])
-
-'''
 
 
 @api_view(['GET'])

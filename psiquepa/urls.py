@@ -25,9 +25,9 @@ urlpatterns = [
     path('login', views.login),
     path('register', views.register_user),
     path('blog', views.blog),
-    #path('blog/<int:blog_id>', views.blog_detailed),
+    path('blog/<int:blog_id>', views.blog_detailed),
     path('blog/user/<str:blog_owner>', views.blog_by_user),
-    #path('blogs', views.blogs),
+    path('blogs', views.blogs),
     path('user/profile', views.user_profile),
     path('user/profile/update', views.user_profile)
 

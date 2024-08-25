@@ -1,3 +1,6 @@
+from django.core.exceptions import ValidationError
+
+from django.db.models.functions import Now
 from rest_framework import serializers, status
 
 from psiquepaWEB.models.models import Blog, User
@@ -36,7 +39,7 @@ class BlogSerializer(serializers.ModelSerializer):
             for blog in blogs:
                 data = dict(
                     {'id': blog.id, 'title': blog.title, 'blog_content': blog.blog_content, 'date': blog.creation_date,
-                     'blog_image': blog.blog_image})
+                     'blog_image': blog.blog_image, 'author': f'{blog.user.name} {blog.user.last_name}'})
                 blog_returned.append(data)
             return [blog_response, status.HTTP_200_OK]
         empty_response = blog_response.copy()
@@ -50,9 +53,10 @@ class BlogSerializer(serializers.ModelSerializer):
         blogs_actual = dict({'status': 'PS-0000', 'body': blogs_list})
         if blogs.exists():
             for blog in blogs:
+                print(blog.user.name)
                 blog_actual = dict(
                     {'id': blog.id, 'title': blog.title, 'blog_content': blog.blog_content, 'date': blog.creation_date,
-                     })
+                     'author': f'{blog.user.name} {blog.user.last_name}'})
                 blogs_list.append(blog_actual)
             return [blogs_actual, status.HTTP_200_OK]
         empty_response = blogs_actual.copy()
@@ -66,6 +70,24 @@ class BlogSerializer(serializers.ModelSerializer):
             blog.delete()
             return [dict({'status': 'PS-0000', 'message': 'Blog deleted successfully'}), status.HTTP_200_OK]
         return [dict({'status': 'PS-0090', 'message': 'An error has occurred'}), status.HTTP_409_CONFLICT]
+
+    def modify_blog(self, blog_id,user_name):
+        blog_data = self.validated_data
+        user = User.objects.get(user_name=user_name)
+        print(user.psid)
+        try:
+            blog = Blog.objects.get(id=blog_id)
+            if blog.user_id == user.psid:
+                blog.title = blog_data.get('title')
+                blog.blog_content = blog_data.get('blog_content')
+                blog.last_updated = Now()
+                blog.save()
+                return {'Actualizado correctamente'}
+            return {'El blog que estas intentando editar no esta en tu lista de blogs'}
+        except Blog.DoesNotExist:
+            return {'Error encontrando el blog'}
+
+
 
     def get_blogs_by_user(self, user_psid):
         blogs_of_user = []
@@ -86,8 +108,9 @@ class BlogSerializer(serializers.ModelSerializer):
                     })
                     blogs_of_user.append(blog_to_append)
                 response = {'status': 'User blogs', 'code': 'PS-0000', 'body': {'blogs': blogs_of_user}}
-
                 return [response, status.HTTP_200_OK]
             return [dict([]), status.HTTP_404_NOT_FOUND]
         except User.DoesNotExist:
+            return [dict({'status': 'PS-0090', 'message': 'An error has occurred'}), status.HTTP_409_CONFLICT]
+        except ValidationError:
             return [dict({'status': 'PS-0090', 'message': 'An error has occurred'}), status.HTTP_409_CONFLICT]
