@@ -71,7 +71,7 @@ class BlogSerializer(serializers.ModelSerializer):
             return [dict({'status': 'PS-0000', 'message': 'Blog deleted successfully'}), status.HTTP_200_OK]
         return [dict({'status': 'PS-0090', 'message': 'An error has occurred'}), status.HTTP_409_CONFLICT]
 
-    def modify_blog(self, blog_id,user_name):
+    def modify_blog(self, blog_id, user_name):
         blog_data = self.validated_data
         user = User.objects.get(user_name=user_name)
         print(user.psid)
@@ -86,8 +86,6 @@ class BlogSerializer(serializers.ModelSerializer):
             return {'El blog que estas intentando editar no esta en tu lista de blogs'}
         except Blog.DoesNotExist:
             return {'Error encontrando el blog'}
-
-
 
     def get_blogs_by_user(self, user_psid):
         blogs_of_user = []
