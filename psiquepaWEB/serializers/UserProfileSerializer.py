@@ -15,7 +15,7 @@ class UserProfileSerializer(serializers.HyperlinkedModelSerializer):
                 'first_name': user_info.name,
                 'last_name': user_info.last_name,
                 'complete_name': f'{user_info.name} {user_info.last_name}',
-                'rol': user_info.user_role,
+                'rol': user_info.role_type,
             })})
             return [response, status.HTTP_200_OK]
         response = dict({'status': 'PS-0020', 'message': 'No results found'})

@@ -11,7 +11,7 @@ from .UserRegistrationSerializer import UserSerializaer
 from .login_messges import LoginMessages
 from .registration_messages import RegistrationMessages
 from .register_custom_validators import RegisterCustomValidators
-# from .serializers.BlogSerializer import BlogSerializer
+from .serializers.BlogSerializer import BlogSerializer
 from .serializers.UserLoginSerializer import UserLoginSerializer
 from .serializers.UserProfileSerializer import UserProfileSerializer
 
@@ -51,7 +51,7 @@ def register_user(request):
         return Response(error.get(error_type[0]), status=status.HTTP_400_BAD_REQUEST)
 
 
-'''@api_view(['GET', 'POST', 'PUT', 'DELETE'])
+@api_view(['GET', 'POST', 'PUT'])
 @authentication_classes([AuthCustom])
 def blog(request):
     if not request.user:
@@ -59,27 +59,29 @@ def blog(request):
     if request.method == 'POST':
         serializer = BlogSerializer(data=request.data)
         if serializer.is_valid():
-            result = serializer.create_blog()
+            result = serializer.create_blog(request.auth['user_name'])
             return Response(result)
         if serializer.errors:
             return Response(serializer.errors)
     if request.method == 'PUT':
-        return Response({'status': 'MODIFIED'})
-    if request.method == 'DELETE':
-        serializer = BlogSerializer()
-        return Response({'status': 'DELETED'})
-    return Response()
+        blog_id = request.data['blog_id']
+        serializer = BlogSerializer(data=request.data)
+        if serializer.is_valid():
+            result = serializer.modify_blog(blog_id=blog_id, user_name=request.auth['user_name'])
+            return Response({'status': 'MODIFIED', 'body': result})
+        if serializer.errors:
+            return Response(serializer.errors)
 
 
 @api_view(['GET', 'DELETE'])
 @authentication_classes([AuthCustom])
 def blog_detailed(request, blog_id):
-    if not request.user:
-        return Response(request.auth)
     if request.method == 'GET':
         serializers = BlogSerializer()
         blog_detail = serializers.get_blog_by_id(blog_id=blog_id)
         return Response(blog_detail[0], status=blog_detail[1])
+    if not request.user:
+        return Response(request.auth)
     if request.method == 'DELETE':
         serializers = BlogSerializer()
         process_result = serializers.delete_blog_by_id(blog_id=blog_id)
@@ -98,10 +100,8 @@ def blog_by_user(request, blog_owner):
     if not request.user:
         return Response(request)
     serializer = BlogSerializer()
-    response = serializer.get_blogs_by_user(user_name=blog_owner)
+    response = serializer.get_blogs_by_user(blog_owner)
     return Response(response[0], response[1])
-
-'''
 
 
 @api_view(['GET'])
